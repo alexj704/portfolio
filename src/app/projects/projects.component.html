@@ -1,0 +1,24 @@
+<div class="project" [ngClass]="project.id % 2 === 0 ? 'left' : 'right'">
+  <div class="project__imagecontainer">
+    <a [href]="project.demoLink" target="_blank">
+      <img [src]="project.imageUrl" [alt]="project.title" />
+    </a>
+  </div>
+  <div class="project__textcontainer">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.descriptionText }}</p>
+    <ul>
+      <li *ngFor="let listElement of project.descriptionList">
+        {{ listElement }}
+      </li>
+    </ul>
+    <div class="project__btncontainer">
+      <a [href]="project.repoLink">
+        <button class="btn">Repo Github</button>
+      </a>
+      <a [href]="project.demoLink" *ngIf="project.demoLink">
+        <button class="btn">Voir le site</button>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+.container {
+  width: 75%;
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  .icon-container {
+    border: solid 5px green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    animation: icon-rotate 1s ease-in-out forwards;
+    fa-icon {
+      font-size: 64px;
+      color: green;
+      overflow: hidden;
+    }
+  }
+  h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    font-size: 24px;
+  }
+}
+
+@keyframes icon-rotate {
+  from {
+    rotate: (-1turn);
+    opacity: 0;
+  }
+
+  to {
+    rotate: 0;
+    opacity: 1;
+  }
+}

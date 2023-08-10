@@ -28,4 +28,9 @@ a {
     color: orange;
     transform: scale(1.1);
   }
+  &:disabled {
+    background: grey;
+    cursor: not-allowed;
+    transform: none;
+  }
 }

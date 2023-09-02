@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 100px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -48,8 +48,9 @@
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 768px) {
   .home {
+    height: calc(100vh - 150px);
     &__text {
       padding: 0 10px;
       h2 {

@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ContactService } from './services/contact.service';
 import { ContactCompleteComponent } from './contact-complete/contact-complete.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProjectsListComponent,
     ContactFormComponent,
     ContactCompleteComponent,
+    CurriculumVitaeComponent,
   ],
   imports: [
     BrowserModule,

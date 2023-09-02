@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactCompleteComponent } from './contact-complete/contact-complete.component';
+import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'contact-complete',
     component: ContactCompleteComponent,
+  },
+  {
+    path: 'curriculum-vitae',
+    component: CurriculumVitaeComponent,
   },
 ];
 

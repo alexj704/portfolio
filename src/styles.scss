@@ -20,16 +20,17 @@ a {
   margin: 10px;
   border: none;
   border-radius: 5px;
-  background: #000;
+  background: rgba(110, 123, 251, 1);
   color: white;
   font-weight: 700;
   cursor: pointer;
   &:hover {
-    color: orange;
+    color: rgba(156, 252, 248, 1);
     transform: scale(1.1);
   }
   &:disabled {
     background: grey;
+    color: white;
     cursor: not-allowed;
     transform: none;
   }

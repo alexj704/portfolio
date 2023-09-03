@@ -4,6 +4,7 @@ import {
   faEnvelope,
   faHome,
   faStar,
+  faGlobe,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faReact,
@@ -34,4 +35,5 @@ export class CurriculumVitaeComponent {
   faCss3 = faCss3;
   faLinkedin = faLinkedin;
   faGithub = faGithub;
+  faGlobe = faGlobe;
 }

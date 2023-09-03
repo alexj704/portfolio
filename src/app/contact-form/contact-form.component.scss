@@ -39,9 +39,9 @@
   color: red;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (min-width: 768px) {
   .contact-container {
-    width: 90%;
-    margin: 30px auto;
+    width: 70%;
+    margin: 100px auto;
   }
 }

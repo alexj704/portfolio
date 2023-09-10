@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: #1e1e1e;
+  --secondary-color: orange;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
   background: #eee;
@@ -20,16 +25,16 @@ a {
   margin: 10px;
   border: none;
   border-radius: 5px;
-  background: rgba(110, 123, 251, 1);
+  background: var(--main-color);
   color: white;
   font-weight: 700;
   cursor: pointer;
   &:hover {
-    color: rgba(156, 252, 248, 1);
+    color: var(--secondary-color);
     transform: scale(1.1);
   }
   &:disabled {
-    background: grey;
+    background: #555;
     color: white;
     cursor: not-allowed;
     transform: none;

@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
   }
   &__text {
     z-index: 2;
-    color: #fff;
+    color: #1e1e1e;
     padding: 0 20px;
     h2 {
       font-size: 7vw;

@@ -6,4 +6,5 @@ export class Project {
   imageUrl!: string;
   repoLink!: string;
   demoLink?: string;
+  mainTechno!: string;
 }

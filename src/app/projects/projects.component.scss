@@ -6,6 +6,10 @@
   display: flex;
   border-radius: 10px;
   &.right {
+    .project__maintechno {
+      right: unset;
+      left: 25px;
+    }
     flex-direction: row-reverse;
     img {
       border-radius: 0 10px 10px 0;
@@ -21,6 +25,7 @@
     }
   }
   &__textcontainer {
+    position: relative;
     width: 60%;
     padding: 20px 50px;
     h3 {
@@ -38,6 +43,16 @@
       list-style: circle;
       list-style-position: inside;
     }
+  }
+  &__maintechno {
+    position: absolute;
+    background: #000;
+    color: orange;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    top: -15px;
+    right: 25px;
   }
   &__btncontainer {
     display: flex;

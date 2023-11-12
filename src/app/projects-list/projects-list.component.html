@@ -1,5 +1,8 @@
-<h2>Mes projets OpenClassrooms</h2>
-<app-projects
-  *ngFor="let project of projects"
-  [project]="project"
-></app-projects>
+<h2>Mes projets personnels</h2>
+<div *ngFor="let project of projects" class="projects__container">
+  <app-projects *ngIf="project.id > 5" [project]="project"></app-projects>
+</div>
+<h2>Mes projets de formation</h2>
+<div *ngFor="let project of projects" class="projects__container">
+  <app-projects *ngIf="project.id <= 5" [project]="project"></app-projects>
+</div>

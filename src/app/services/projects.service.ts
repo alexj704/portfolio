@@ -20,6 +20,7 @@ export class ProjectsService {
       imageUrl: '/assets/img/preview/booki-preview.webp',
       repoLink: 'https://github.com/alexj704/booki',
       demoLink: 'https://alexj704.github.io/booki/',
+      mainTechno: 'HTML & CSS',
     },
     {
       id: 1,
@@ -35,6 +36,7 @@ export class ProjectsService {
       imageUrl: '/assets/img/preview/ohmyfood-preview.webp',
       repoLink: 'https://github.com/alexj704/ohmyfood',
       demoLink: 'https://alexj704.github.io/ohmyfood/',
+      mainTechno: 'SASS',
     },
     {
       id: 2,
@@ -48,6 +50,7 @@ export class ProjectsService {
       imageUrl: '/assets/img/preview/panthere-preview.webp',
       repoLink: 'https://github.com/alexj704/panthere-final',
       demoLink: 'https://alexj704.github.io/panthere-final/',
+      mainTechno: 'SEO & Accessibilité',
     },
     {
       id: 3,
@@ -63,6 +66,7 @@ export class ProjectsService {
       imageUrl: '/assets/img/preview/kanap-preview.webp',
       repoLink: 'https://github.com/alexj704/kanap',
       demoLink: 'https://kanap.netlify.app/',
+      mainTechno: 'JavaScript',
     },
     {
       id: 4,
@@ -78,6 +82,7 @@ export class ProjectsService {
       ],
       imageUrl: '/assets/img/preview/piiquante-preview.webp',
       repoLink: 'https://github.com/alexj704/Piiquante-backend',
+      mainTechno: 'Node.JS',
     },
     {
       id: 5,
@@ -92,6 +97,49 @@ export class ProjectsService {
       imageUrl: '/assets/img/preview/kasa-preview.webp',
       repoLink: 'https://github.com/alexj704/kasa',
       demoLink: 'https://kasa-pi.vercel.app/',
+      mainTechno: 'React.Js',
+    },
+    {
+      id: 6,
+      title: 'Mon site personnel',
+      descriptionText:
+        'Création de mon site personnel présentant mes projets avec Angular',
+      descriptionList: [
+        'Utilisation des services Angular pour gérer les projets',
+        "Utilisation des observables Angular pour la gestion de l'envoi de message",
+      ],
+      imageUrl: '/assets/img/preview/portfolio-preview.webp',
+      repoLink: 'https://github.com/alexj704/portfolio',
+      demoLink: 'https://www.alexandrejoignant.fr/',
+      mainTechno: 'Angular',
+    },
+    {
+      id: 7,
+      title: 'Jeu du Pendu',
+      descriptionText: "Création d'un jeu du pendu en JavaScript",
+      descriptionList: [
+        'Utilisation de Webpack',
+        'Utilisation de chatGPT pour la création de la liste de mots à trouver',
+        'Utilisation de la librairie Simple-Keyboard pour afficher un clavier virtuel',
+      ],
+      imageUrl: '/assets/img/preview/pendu-preview.webp',
+      repoLink: 'https://github.com/alexj704/pendu',
+      demoLink: 'https://pendu.alexandrejoignant.fr/',
+      mainTechno: 'JavaScript',
+    },
+    {
+      id: 8,
+      title: 'Métropolis',
+      descriptionText:
+        "Réalisation de la landing page d'une marque fictive avec des animations CSS",
+      descriptionList: [
+        'Utilisation de SASS pour gérer le CSS',
+        "Utilisation d'animations CSS",
+      ],
+      imageUrl: '/assets/img/preview/metropolis-preview.webp',
+      repoLink: 'https://github.com/alexj704/metropolis',
+      demoLink: 'https://metropolis-alexj704.vercel.app/',
+      mainTechno: 'SASS',
     },
   ];
 
